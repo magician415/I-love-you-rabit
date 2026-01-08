@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, black, darkred);
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* SPIDER LOGO */
+.spider-logo {
+    position: fixed;
+    top: 20px;
+    cursor: pointer;
+}
+
+.spider-body {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 0 15px red;
+}
+
+.legs {
+    position: absolute;
+    top: 35px;
+    width: 80px;
+    height: 2px;
+    background: red;
+}
+
+.left { transform: rotate(25deg); }
+.right { transform: rotate(-25deg); }
+
+/* CONTENT BOX */
+.box {
+    max-width: 750px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px red;
+}
+
+/* BUTTON */
+button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
